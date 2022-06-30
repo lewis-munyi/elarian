@@ -1,10 +1,11 @@
 # Votr
 An express application that consumes [Elarian](https://elarian.com)'s API. This solution was presented as a mvp on an open source community [hackathon](https://community.elarian.com/events/details/africas-talking-africas-talking-community-presents-africas-talking-open-hackathon-fintech/)
 
-CAUTION: THIS APPLICATION IS HIGHLY EXPERIMENTAL. EXPECT BUGS!
 
 
 ## Setting Up
+> CAUTION! This app is HIGHLY EXPERIMENTAL. Expect bugs.
+
 Get auth credentials from [elarian](https://dashboard.elarian.com/en/providers/setup)
 
 create a `config/default.json` file with the the following code:
@@ -21,7 +22,7 @@ create a `config/default.json` file with the the following code:
         },
 
         "channel": {
-            "purseId": "prs-XXXXX",
+            "purseId": "el_prs-XXXXX",
 
             "sms": {
                 "channel": "sms",
